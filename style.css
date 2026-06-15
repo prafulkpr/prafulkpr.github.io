@@ -124,20 +124,6 @@ img[src="profile.jpg"]:hover {
   
 }
 
-/* --- 9. Soft Entrance Animation --- */
-@keyframes simpleFade {
-  0% { opacity: 0; }
-  100% { opacity: 1; }
-}
-
-@keyframes softFadeUp {
-  0% { opacity: 0; transform: translateY(15px); }
-  100% { opacity: 1; transform: translateY(0); }
-}
-
-.profile-column, div[style*="display: flex"] {
-  animation: softFadeUp 1.2s cubic-bezier(0.25, 1, 0.5, 1) forwards !important;
-}
 
 /* --- 10. Natural Highlight Color --- */
 ::selection {

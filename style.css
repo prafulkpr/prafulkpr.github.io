@@ -17,13 +17,21 @@ html, body {
 .page-header { display: none !important; }
 
 .main-content, .container, .container-lg { 
-  padding-top: 2rem !important; 
+  padding-top: 0 !important; 
   max-width: 85% !important; 
   margin: 0 auto !important; 
   padding-left: 2rem !important; 
   padding-right: 2rem !important;
 }
-
+.main-content-wrapper {
+  position: relative;
+  z-index: 10;
+  margin-top: -80px;          /* this is what slides it over the image */
+  background: #F9F8F4;
+  border-radius: 16px 16px 0 0;
+  padding-top: 40px;
+  box-shadow: 0 -4px 30px rgba(0,0,0,0.08);
+}
 /* --- 2. Background --- */
 body {
   font-family: 'Inter', system-ui, -apple-system, sans-serif !important;
@@ -107,8 +115,7 @@ div[style*="text-align: center"] a:hover {
   margin-left: -50vw !important;
   
   margin-top: -2rem !important; 
-  margin-bottom: 50px !important;
-
+  margin-bottom: 0 !important; 
 }
 
 

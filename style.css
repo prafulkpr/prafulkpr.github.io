@@ -112,7 +112,7 @@ div[style*="text-align: center"] a:hover {
 
   position: relative !important;
   left: 50% !important;
-  margin-left: -50vw !important;
+   transform: translateX(-50%) !important;
   
   margin-top: -2rem !important; 
   margin-bottom: 0 !important; 

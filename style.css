@@ -101,7 +101,7 @@ img[src="profile.jpg"]:hover {
   
   background-attachment: fixed !important; 
   background-size: cover !important;
-  background-position: center !important; 
+  background-position: center center !important; 
   background-repeat: no-repeat !important;
 
   position: relative !important;
@@ -114,17 +114,14 @@ img[src="profile.jpg"]:hover {
 }
 
 
-@media (max-width: 768px) {
+@media (max-width: 1024px), (hover: none) and (pointer: coarse){
   .hero-banner {
     background-attachment: scroll !important; 
     background-position: center center !important; 
    
   }
   
-  .profile-pic {
-    width: 180px !important; 
-    height: 180px !important;
-  }
+  
 }
 
 /* --- 9. Soft Entrance Animation --- */

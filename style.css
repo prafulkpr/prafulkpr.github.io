@@ -135,10 +135,6 @@ img[src="profile.jpg"]:hover {
   100% { opacity: 1; transform: translateY(0); }
 }
 
-body {
-  animation: softFadeup 1.4s ease-in-out forwards !important;
-}
-
 .profile-column, div[style*="display: flex"] {
   animation: softFadeUp 1.2s cubic-bezier(0.25, 1, 0.5, 1) forwards !important;
 }

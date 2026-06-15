@@ -8,7 +8,6 @@ html, body {
 }
 
 .wrapper, .main-content, .container, .container-lg, .page-header {
-  transform: none !important;
   perspective: none !important;
  
 }
@@ -80,14 +79,13 @@ div[style*="text-align: center"] a:hover {
   font-weight: 500 !important;
 }
 
-/* --- 5. Profile Image & Banner --- */
-img[src="profile.jpg"], img[src="20260217_130902.jpg"] {
-  border-radius: 8px !important; 
-  box-shadow: 0 8px 24px rgba(62, 74, 65, 0.08) !important; 
+
+.profile-pic {
+  border-radius: 8px !important;
+  box-shadow: 0 8px 24px rgba(62, 74, 65, 0.08) !important;
   transition: transform 0.5s ease, box-shadow 0.5s ease;
 }
-
-img[src="profile.jpg"]:hover {
+.profile-pic:hover {
   transform: translateY(-2px);
   box-shadow: 0 12px 28px rgba(62, 74, 65, 0.12) !important;
 }
@@ -99,7 +97,7 @@ img[src="profile.jpg"]:hover {
   width: 100vw !important;
 
   
-  background-attachment: fixed !important; 
+  background-attachment: scroll !important; 
   background-size: cover !important;
   background-position: center center !important; 
   background-repeat: no-repeat !important;
@@ -123,6 +121,10 @@ img[src="profile.jpg"]:hover {
   
   
 }
+
+
+
+
 /* --- 9. Soft Entrance Animation --- */
 @keyframes simpleFade {
   0% { opacity: 0; }
@@ -134,9 +136,16 @@ img[src="profile.jpg"]:hover {
   100% { opacity: 1; transform: translateY(0); }
 }
 
-.profile-column, div[style*="display: flex"] {
-  animation: softFadeUp 1.2s cubic-bezier(0.25, 1, 0.5, 1) forwards !important;
+.profile-column {
+  animation: softFadeUp 0.9s cubic-bezier(0.25,1,0.5,1) both;
+  animation-delay: 0.15s;
 }
+div[style*="display: flex"] > div:last-child {
+  animation: softFadeUp 0.9s cubic-bezier(0.25,1,0.5,1) both;
+  animation-delay: 0.35s;
+}
+
+
 
 /* --- 10. Natural Highlight Color --- */
 ::selection {

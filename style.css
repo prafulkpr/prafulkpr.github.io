@@ -10,7 +10,7 @@ html, body {
 .wrapper, .main-content, .container, .container-lg, .page-header {
   transform: none !important;
   perspective: none !important;
-  background-color: transparent!important; 
+ 
 }
 
 
@@ -101,7 +101,7 @@ img[src="profile.jpg"]:hover {
   
   background-attachment: fixed !important; 
   background-size: cover !important;
-  background-position: center center !important; 
+  background-position: center !important; 
   background-repeat: no-repeat !important;
 
   position: relative !important;
@@ -109,23 +109,7 @@ img[src="profile.jpg"]:hover {
   
   margin-top: -2rem !important; 
   margin-bottom: 50px !important;
-  min-height: 100vh; /* Full screen height */
-}
 
-.overlay {
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    top: 0;
-    left: 0;
-    /* Soft white wash at 17% opacity */
-    background-color: rgba(255, 255, 255, 0.17); 
-}
-
-.caption {
-    position: relative;
-    z-index: 99; 
-    color: #333333; /* Dark text for high contrast against white wash */
 }
 
 
@@ -154,7 +138,7 @@ img[src="profile.jpg"]:hover {
 }
 
 body {
-  animation: fadeInOnly 1.2s ease-in-out forwards !important;
+  animation: fadeInOnly 1.4s ease-in-out forwards !important;
 }
 
 .profile-column, div[style*="display: flex"] {

@@ -105,6 +105,7 @@ img[src="profile.jpg"]:hover {
   background-repeat: no-repeat !important;
 
   position: relative !important;
+  left: 50% !important;
   margin-left: -50vw !important;
   
   margin-top: -2rem !important; 
@@ -138,7 +139,7 @@ img[src="profile.jpg"]:hover {
 }
 
 body {
-  animation: fadeInOnly 1.4s ease-in-out forwards !important;
+  animation: softFadeup 1.4s ease-in-out forwards !important;
 }
 
 .profile-column, div[style*="display: flex"] {

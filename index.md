@@ -65,3 +65,24 @@ MathJax = { tex: { inlineMath: [['$', '$'], ['\\(', '\\)']] } };
     </ul>
   </div>
 
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    var banner = document.querySelector(".hero-banner");
+    var wrapper = document.querySelector(".main-content-wrapper");
+    var mainContent = document.querySelector(".main-content");
+
+    if (banner && mainContent) {
+      // Move banner BEFORE the main-content section entirely
+      mainContent.parentNode.insertBefore(banner, mainContent);
+    }
+
+    if (wrapper && mainContent) {
+      // Move wrapper BEFORE the main-content section
+      mainContent.parentNode.insertBefore(wrapper, mainContent);
+      // Move all remaining content inside main-content into wrapper
+      while (mainContent.firstChild) {
+        wrapper.appendChild(mainContent.firstChild);
+      }
+    }
+  });
+</script>

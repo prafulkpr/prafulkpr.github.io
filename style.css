@@ -119,8 +119,8 @@ div[style*="text-align: center"] a:hover {
   left: 50% !important;
    transform: translateX(-50%) !important;
   
-  margin-top: -2rem !important; 
-  margin-bottom: 50px !important; 
+  margin-top: 0 !important; 
+  margin-bottom: 0 !important; 
 }
 
 
@@ -173,23 +173,4 @@ div[style*="display: flex"] > div:last-child {
   border-radius: 12px !important;
   border: 1px solid rgba(90, 107, 93, 0.1) !important; 
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.02) !important;
-}
-.hero-banner {
-  width: 100vw !important;
-  min-height: 420px !important;
-  background-size: cover !important;
-  background-position: center !important;
-  background-attachment: scroll !important;
-  margin: 0 !important;
-}
-
-.main-content-wrapper {
-  position: relative;
-  z-index: 10;
-  margin-top: -80px;
-  background: #F9F8F4;
-  border-radius: 16px 16px 0 0;
-  box-shadow: 0 -6px 32px rgba(0,0,0,0.10);
-  padding: 40px 7.5% 60px 7.5%;
-  max-width: 100% !important;
 }

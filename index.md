@@ -17,7 +17,7 @@ MathJax = { tex: { inlineMath: [['$', '$'], ['\\(', '\\)']] } };
 
 
 <div class="hero-banner" style="background-image: url('20260217_130902.jpg');"></div>
-<div class="main-content-wrapper">
+
 <!-- -->
 <!-- Main Layout Container -->
 <div style="display: flex; flex-wrap: wrap; gap: 40px; font-family: system-ui, -apple-system, sans-serif; color: #333; line-height: 1.7;">
@@ -66,25 +66,3 @@ MathJax = { tex: { inlineMath: [['$', '$'], ['\\(', '\\)']] } };
     </ul>
   </div>
 </div>
-</div>
-<script>
-  document.addEventListener("DOMContentLoaded", function () {
-    var banner = document.querySelector(".hero-banner");
-    var wrapper = document.querySelector(".main-content-wrapper");
-    var mainContent = document.querySelector(".main-content");
-
-    if (banner && mainContent) {
-      // Move banner BEFORE the main-content section entirely
-      mainContent.parentNode.insertBefore(banner, mainContent);
-    }
-
-    if (wrapper && mainContent) {
-      // Move wrapper BEFORE the main-content section
-      mainContent.parentNode.insertBefore(wrapper, mainContent);
-      // Move all remaining content inside main-content into wrapper
-      while (mainContent.firstChild) {
-        wrapper.appendChild(mainContent.firstChild);
-      }
-    }
-  });
-</script>

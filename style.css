@@ -81,9 +81,6 @@ div[style*="text-align: center"] a:hover {
 
 
 .profile-pic {
-  width: 160px !important;
-  height: 160px !important;
-  object-fit: cover !important;
   display: block !important;
   margin-bottom: 20px !important;
   border-radius: 8px !important;

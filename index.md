@@ -16,7 +16,7 @@ MathJax = { tex: { inlineMath: [['$', '$'], ['\\(', '\\)']] } };
 <!-- -->
 
 
-<div class="hero-banner" style="background-image: url('20260217_130902.jpg');"></div>
+
 
 <!-- -->
 <!-- Main Layout Container -->

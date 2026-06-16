@@ -29,7 +29,7 @@ html, body {
   margin-top: -80px;          /* this is what slides it over the image */
   background: #F9F8F4;
   border-radius: 16px 16px 0 0;
-  padding-top: 40px;
+  padding: 40px 4% 60px 4% !important;
   box-shadow: 0 -4px 30px rgba(0,0,0,0.08);
 }
 /* --- 2. Background --- */
@@ -89,6 +89,11 @@ div[style*="text-align: center"] a:hover {
 
 
 .profile-pic {
+  width: 160px !important;
+  height: 160px !important;
+  object-fit: cover !important;
+  display: block !important;
+  margin-bottom: 20px !important;
   border-radius: 8px !important;
   box-shadow: 0 8px 24px rgba(62, 74, 65, 0.08) !important;
   transition: transform 0.5s ease, box-shadow 0.5s ease;
@@ -162,6 +167,7 @@ div[style*="display: flex"] > div:last-child {
 
 /* --- 11. Profile Column --- */
 .profile-column {
+  overflow: hidden !important;
   background: rgba(255, 255, 255, 0.4) !important; 
   padding: 30px !important;
   border-radius: 12px !important;

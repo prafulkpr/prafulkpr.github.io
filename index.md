@@ -14,7 +14,7 @@ MathJax = { tex: { inlineMath: [['$', '$'], ['\\(', '\\)']] } };
 <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
 
 <!-- -->
-
+<div class="hero-banner" style="background-image: url('20260217_130902.jpg');"></div>
 
 
 

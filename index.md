@@ -1,4 +1,6 @@
-
+---
+layout: default
+---
 <!--  Navigation -->
 <div style="text-align: center; margin-bottom: 40px; font-family: system-ui, -apple-system, sans-serif;">
   <a href="index.html" style="margin: 0 15px; color: #333; text-decoration: none; font-weight: 600; border-bottom: 1px solid #333; padding-bottom: 2px;">Home</a>

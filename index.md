@@ -51,7 +51,7 @@ MathJax = { tex: { inlineMath: [['$', '$'], ['\\(', '\\)']] } };
       <p style="margin: 0; color: #999; font-size: 0.9em; font-style: italic;">2018 – 2023</p>
     </div>
   </div>
- </div>
+ 
   <!--  -->
   <div style="flex: 2; min-width: 300px;">
     <h3 style="margin-top: 0; font-weight: 400; color: #555; border-bottom: 1px solid #eee; padding-bottom: 8px; font-size: 1.1em; text-transform: uppercase; letter-spacing: 1px;">Research Interests</h3>
@@ -65,7 +65,8 @@ MathJax = { tex: { inlineMath: [['$', '$'], ['\\(', '\\)']] } };
       <li style="margin-bottom: 12px;">Developing analogs of the Adler-Kostant-Symes scheme adapted for infinite-dimensional Lie groups.</li>
     </ul>
   </div>
-
+</div>
+</div>
 <script>
   document.addEventListener("DOMContentLoaded", function () {
     var banner = document.querySelector(".hero-banner");

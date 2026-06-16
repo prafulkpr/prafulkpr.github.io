@@ -17,7 +17,8 @@ MathJax = { tex: { inlineMath: [['$', '$'], ['\\(', '\\)']] } };
 
 
 <div class="hero-banner" style="background-image: url('20260217_130902.jpg');"></div>
-<!-- ->
+<div class="main-content-wrapper">
+<!-- -->
 <!-- Main Layout Container -->
 <div style="display: flex; flex-wrap: wrap; gap: 40px; font-family: system-ui, -apple-system, sans-serif; color: #333; line-height: 1.7;">
 
@@ -50,7 +51,7 @@ MathJax = { tex: { inlineMath: [['$', '$'], ['\\(', '\\)']] } };
       <p style="margin: 0; color: #999; font-size: 0.9em; font-style: italic;">2018 – 2023</p>
     </div>
   </div>
-
+ </div>
   <!--  -->
   <div style="flex: 2; min-width: 300px;">
     <h3 style="margin-top: 0; font-weight: 400; color: #555; border-bottom: 1px solid #eee; padding-bottom: 8px; font-size: 1.1em; text-transform: uppercase; letter-spacing: 1px;">Research Interests</h3>

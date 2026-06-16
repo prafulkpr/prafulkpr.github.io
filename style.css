@@ -104,7 +104,8 @@ div[style*="text-align: center"] a:hover {
   
   background-attachment: scroll !important; 
   background-size: cover !important;
-  background-position: center center !important; 
+  background-position: center -400px !important; 
+  
   background-repeat: no-repeat !important;
 
   position: relative !important;

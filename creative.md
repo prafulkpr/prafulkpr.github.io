@@ -33,7 +33,7 @@
         
         <div class="grid-item"><img src="sketches/Sketch3.jpg" alt="Sketch 3" onerror="this.style.display='none'"></div>
         
-        <div class="grid-item"><img src="sketches/Sketch4.jpg" alt="Sketch 4" style="object-position: 50% 40%;" onerror="this.style.display='none'"></div>
+        <div class="grid-item"><img src="sketches/Sketch4.jpg" alt="Sketch 4" style="object-position: 50% 100%;" onerror="this.style.display='none'"></div>
         
         <div class="grid-item"><img src="sketches/Sketch5.jpg" alt="Sketch 5" style="object-position: 20% 50%;" onerror="this.style.display='none'"></div>
         

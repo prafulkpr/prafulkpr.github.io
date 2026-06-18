@@ -170,14 +170,14 @@ div[style*="display: flex"] > div:last-child {
 
 .image-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); /* Shrinks thumbnails */
-  gap: 15px; /* Less empty space between sketches */
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 15px; 
 }
 
 
 .grid-item img {
   width: 100%;
-  height: 180px; /* Shrunk down from 250px for a highly organized look */
+  height: 180px; 
   object-fit: cover;
   border-radius: 6px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.04);
@@ -192,19 +192,39 @@ div[style*="display: flex"] > div:last-child {
 /*Display Card */
 .poem-card {
   background: rgba(255, 255, 255, 0.6);
-  padding: 30px; /* Reduced padding so it doesn't take up the whole screen */
+  padding: 30px;
   border-radius: 10px;
   border: 1px solid rgba(90, 107, 93, 0.15);
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.02);
-  max-width: 450px; /* Forces the card to be thin and elegant, not wide and clunky */
+  max-width: 450px; /* Forces the card to be thin */
   margin: 0 auto;
 }
 
 /* Smaller typography for Poetry */
 .poem-text {
   font-family: 'Cormorant Garamond', serif;
-  font-size: 1.1em; /* Reduced the font size for a delicate look */
+  font-size: 1.1em; /* Reduced the font size */
   color: #4A4A4A;
   line-height: 1.6;
-  white-space: pre-wrap; /* Keeps your line breaks intact! */
+  white-space: pre-wrap; /
+}
+
+.image-grid { gap: 15px; }
+.grid-item img { height: 180px; } /* Shrinks the sketches */
+.poem-card { max-width: 450px; padding: 30px; } /* Makes the poem card thin */
+.poem-text { font-size: 1.1em; }
+
+@media (max-width: 768px) {
+  .main-content {
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+  }
+  
+  .poem-card {
+    padding: 20px !important;
+  }
+
+  .poem-text {
+    font-size: 1.1em !important; 
+  }
 }

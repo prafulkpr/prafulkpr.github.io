@@ -29,15 +29,15 @@
 
     <div class="gallery-section">
       <h2 style="border-bottom: 1px solid #eee; padding-bottom: 10px; margin-bottom: 20px;">I. Sketches</h2>
-      <div class="image-grid">
+      <div class="image-grid"><div class="image-grid">
         <div class="grid-item"><img src="sketches/Sketch1.jpg" alt="Sketch 1" onerror="this.style.display='none'"></div>
         <div class="grid-item"><img src="sketches/Sketch2.jpg" alt="Sketch 2" style="object-position: 20% 50%;" onerror="this.style.display='none'"></div>
         <div class="grid-item"><img src="sketches/Sketch3.jpg" alt="Sketch 3" onerror="this.style.display='none'"></div>
-        <div class="grid-item"><img src="sketches/Sketch4.jpg" alt="Sketch 4" onerror="this.style.display='none'"></div>
-        <div class="grid-item"><img src="sketches/Sketch5.jpg" alt="Sketch 5" onerror="this.style.display='none'"></div>
-        <div class="grid-item"><img src="sketches/Sketch6.jpg" alt="Sketch 6" onerror="this.style.display='none'"></div>
-        <div class="grid-item"><img src="sketches/Sketch7.jpg" alt="Sketch 7" onerror="this.style.display='none'"></div>
-        <div class="grid-item"><img src="sketches/Sketch8.jpg" alt="Sketch 8" onerror="this.style.display='none'"></div>
+        <div class="grid-item"><img src="sketches/Sketch4.jpg" alt="Sketch 4" style="object-position: 50% 40%;" onerror="this.style.display='none'"></div>
+        <div class="grid-item"><img src="sketches/Sketch5.jpg" alt="Sketch 5" style="object-position: 20% 50%;" onerror="this.style.display='none'"></div>
+        <div class="grid-item"><img src="sketches/Sketch6.jpg" alt="Sketch 6" style="object-position: 50% 30%;" onerror="this.style.display='none'"></div>
+        <div class="grid-item"><img src="sketches/Sktech7.jpg" alt="Sketch 7" style="object-position: 50% 40%;" onerror="this.style.display='none'"></div>
+        <div class="grid-item"><img src="sketches/Sketch8.jpg" alt="Sketch 8" style="object-position: 50% 90%;" onerror="this.style.display='none'"></div>
       </div>
 </div>
     <div class="gallery-section" style="margin-top: 60px; margin-bottom: 80px;">

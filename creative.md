@@ -31,7 +31,7 @@
       <h2 style="border-bottom: 1px solid #eee; padding-bottom: 10px; margin-bottom: 20px;">I. Sketches</h2>
       <div class="image-grid">
         <div class="grid-item"><img src="sketches/Sketch1.jpg" alt="Sketch 1" onerror="this.style.display='none'"></div>
-        <div class="grid-item"><img src="sketches/Sketch2.jpg" alt="Sketch 2" onerror="this.style.display='none'"></div>
+        <div class="grid-item"><img src="sketches/Sketch2.jpg" alt="Sketch 2" style="object-position: 20% 50%;" onerror="this.style.display='none'"></div>
         <div class="grid-item"><img src="sketches/Sketch3.jpg" alt="Sketch 3" onerror="this.style.display='none'"></div>
         <div class="grid-item"><img src="sketches/Sketch4.jpg" alt="Sketch 4" onerror="this.style.display='none'"></div>
         <div class="grid-item"><img src="sketches/Sketch5.jpg" alt="Sketch 5" onerror="this.style.display='none'"></div>

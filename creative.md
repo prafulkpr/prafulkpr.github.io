@@ -45,8 +45,8 @@
       
       <div class="poem-card">
         <h3 style="margin-top: 0; color: #3E4A41; font-size: 1.4em;">A Gift</h3>
-        <p class="poem-text">
-         On a tree by my window,
+        <p class="poem-text"> 
+On a tree by my window,
 lives a baby bird, tender and tiny,
 from branch to branch she hops,
 testing each until she finds

@@ -254,6 +254,7 @@ summary::-webkit-details-marker { display: none; } /* Hides default ugly arrows 
   .poem-text {
     font-size: 1rem !important; 
     overflow-x: auto; 
+    white-space: pre !important;
   }
 }
 

@@ -164,3 +164,47 @@ div[style*="display: flex"] > div:last-child {
   border: 1px solid rgba(90, 107, 93, 0.1) !important; 
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.02) !important;
 }
+
+/* --- 12. Creative Journal Galleries --- */
+
+/* The Image Grid (Automatically adjusts for PC vs Phone) */
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+/* Individual Image Styling */
+.grid-item img {
+  width: 100%;
+  height: 250px; /* Keeps all photos the same uniform height */
+  object-fit: cover; /* Crops the photos nicely so they don't stretch */
+  border-radius: 8px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.04);
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.grid-item img:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 25px rgba(90, 107, 93, 0.15); /* Soft sage glow on hover */
+}
+
+/* The Poem Display Card */
+.poem-card {
+  background: rgba(255, 255, 255, 0.6);
+  padding: 40px;
+  border-radius: 12px;
+  border: 1px solid rgba(90, 107, 93, 0.15); /* Faint sage border */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.02);
+  max-width: 600px;
+  margin: 0 auto; /* Centers the poem card */
+}
+
+/* Typography specifically for Poetry */
+.poem-text {
+  font-family: 'Cormorant Garamond', serif; /* Uses your premium elegant font */
+  font-size: 1.25em;
+  color: #4A4A4A;
+  line-height: 1.8;
+  white-space: pre-wrap; /* CRITICAL: This tells the browser to respect your "Enters" and line breaks! */
+}

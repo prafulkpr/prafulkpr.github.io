@@ -208,3 +208,21 @@ div[style*="display: flex"] > div:last-child {
   line-height: 1.8;
   white-space: pre-wrap; /* CRITICAL: This tells the browser to respect your "Enters" and line breaks! */
 }
+/* --- Mobile Layout Fix for Journal Page --- */
+@media (max-width: 768px) {
+  /* Gives the text breathing room on phone screens */
+  .main-content {
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+  }
+  
+  /* Shrinks the heavy padding on the poem card so it fits on mobile */
+  .poem-card {
+    padding: 20px !important;
+  }
+
+  /* Shrinks the poem font slightly for phone screens */
+  .poem-text {
+    font-size: 1.1em !important; 
+  }
+}

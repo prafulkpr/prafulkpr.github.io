@@ -91,7 +91,7 @@ the gift of childhood,
 the gift of becoming,
 the gift of consciousness
         </p>
-        <span style="display: block; text-align: right; color: #888; font-size: 0.9em; font-style: italic; margin-top: 15px;">— P. Rahangdale, 2024</span>
+        
       </div>
       
       </div>

@@ -39,7 +39,7 @@
         
         <div class="grid-item"><img src="sketches/Sketch7.jpg" alt="Sketch 7" style="object-position: 50% 40%;" onerror="this.style.display='none'"></div>
         
-        <div class="grid-item"><img src="sketches/Sketch8.jpg" alt="Sketch 8" style="object-position: 50% 90%;" onerror="this.style.display='none'"></div>
+        <div class="grid-item"><img src="sketches/Sketch8.jpg" alt="Sketch 8" style="object-position: 90% 70%;" onerror="this.style.display='none'"></div>
 
         <div class="grid-item"><img src="sketches/Sketch5.jpg" alt="Sketch 5" style="object-position: 70% 50%;" onerror="this.style.display='none'"></div>
         

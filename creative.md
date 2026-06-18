@@ -1,4 +1,3 @@
-<!DOCYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -35,7 +34,7 @@
         
         <div class="grid-item"><img src="sketches/Sketch4.jpg" alt="Sketch 4" style="object-position: 50% 100%;" onerror="this.style.display='none'"></div>
         
-        <div class="grid-item"><img src="sketches/Sketch5.jpg" alt="Sketch 5" style="object-position: 20% 50%;" onerror="this.style.display='none'"></div>
+        <div class="grid-item"><img src="sketches/Sketch5.jpg" alt="Sketch 5" style="object-position: 40% 50%;" onerror="this.style.display='none'"></div>
         
         <div class="grid-item"><img src="sketches/Sketch6.jpg" alt="Sketch 6" style="object-position: 50% 30%;" onerror="this.style.display='none'"></div>
         
@@ -49,8 +48,13 @@
       <h2 style="border-bottom: 1px solid #eee; padding-bottom: 10px; margin-bottom: 20px;">II. Writings</h2>
       
       <div class="poem-card">
-        <h3 style="margin-top: 0; color: #3E4A41; font-size: 1.4em;">A Gift</h3>
-        <p class="poem-text">
+        <details>
+          <summary class="poem-preview">
+            <h3 style="margin: 0; color: #3E4A41; font-size: 1.4em;">A Gift</h3>
+            <p style="color: #888; font-size: 0.95em; margin-top: 5px; font-style: italic;">"On a tree by my window, lives a baby bird..." <span style="color: #5A6B5D; font-weight: bold; font-size: 0.8em; float: right;">+ READ</span></p>
+          </summary>
+          
+          <p class="poem-text" style="margin-top: 25px;">
 On a tree by my window,
 lives a baby bird, tender and tiny,
 from branch to branch she hops,
@@ -96,6 +100,7 @@ the gift of childhood,
 the gift of becoming,
 the gift of consciousness
 </p>
+      </details>
       </div>
       
     </div>

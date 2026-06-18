@@ -227,7 +227,9 @@ summary::-webkit-details-marker { display: none; } /* Hides default ugly arrows 
 
 /* --- 13. Mobile & iPad Layout --- */
 @media (max-width: 768px) {
-  
+  .main-content p:not(.poem-text) {
+    text-align: left !important;
+  }
   .image-grid {
     grid-template-columns: repeat(2, 1fr) !important;
     gap: 10px !important;

@@ -34,7 +34,7 @@
         
         <div class="grid-item"><img src="sketches/Sketch4.jpg" alt="Sketch 4" style="object-position: 50% 100%;" onerror="this.style.display='none'"></div>
         
-        <div class="grid-item"><img src="sketches/Sketch5.jpg" alt="Sketch 5" style="object-position: 40% 50%;" onerror="this.style.display='none'"></div>
+        <div class="grid-item"><img src="sketches/Sketch5.jpg" alt="Sketch 5" style="object-position: 70% 50%;" onerror="this.style.display='none'"></div>
         
         <div class="grid-item"><img src="sketches/Sketch6.jpg" alt="Sketch 6" style="object-position: 50% 30%;" onerror="this.style.display='none'"></div>
         

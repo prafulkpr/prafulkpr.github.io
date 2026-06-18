@@ -20,32 +20,37 @@
     <div style="text-align: center; margin-bottom: 60px;">
       <h1 style="font-size: 2.5em; margin-bottom: 15px;">Journal & Curiosities</h1>
       <p style="font-size: 1.05em; color: #666; line-height: 1.8; text-align: justify;">
-
-      
-  Outside of mathematics, I am deeply attracted to art, music, and nature. My leisure time is usually spent drawing sketches and patterns, practicing yoga and meditation, and taking part in sports such as table tennis, kickboxing, and bouldering. Recently, I have also started writing poems to give shape to my wandering thoughts :). This space is a collection of those parallel pursuits.
-      
+        Outside of mathematics, I am deeply attracted to art, music, and nature. My leisure time is usually spent drawing sketches and patterns, practicing yoga and meditation, and taking part in sports such as table tennis, kickboxing, and bouldering. Recently, I have also started writing poems to give shape to my wandering thoughts :). This space is a collection of those parallel pursuits.
       </p>
     </div>
 
     <div class="gallery-section">
       <h2 style="border-bottom: 1px solid #eee; padding-bottom: 10px; margin-bottom: 20px;">I. Sketches</h2>
-      <div class="image-grid"><div class="image-grid">
+      <div class="image-grid">
         <div class="grid-item"><img src="sketches/Sketch1.jpg" alt="Sketch 1" onerror="this.style.display='none'"></div>
+        
         <div class="grid-item"><img src="sketches/Sketch2.jpg" alt="Sketch 2" style="object-position: 20% 50%;" onerror="this.style.display='none'"></div>
+        
         <div class="grid-item"><img src="sketches/Sketch3.jpg" alt="Sketch 3" onerror="this.style.display='none'"></div>
+        
         <div class="grid-item"><img src="sketches/Sketch4.jpg" alt="Sketch 4" style="object-position: 50% 40%;" onerror="this.style.display='none'"></div>
+        
         <div class="grid-item"><img src="sketches/Sketch5.jpg" alt="Sketch 5" style="object-position: 20% 50%;" onerror="this.style.display='none'"></div>
+        
         <div class="grid-item"><img src="sketches/Sketch6.jpg" alt="Sketch 6" style="object-position: 50% 30%;" onerror="this.style.display='none'"></div>
+        
         <div class="grid-item"><img src="sketches/Sktech7.jpg" alt="Sketch 7" style="object-position: 50% 40%;" onerror="this.style.display='none'"></div>
+        
         <div class="grid-item"><img src="sketches/Sketch8.jpg" alt="Sketch 8" style="object-position: 50% 90%;" onerror="this.style.display='none'"></div>
       </div>
-</div>
+    </div>
+
     <div class="gallery-section" style="margin-top: 60px; margin-bottom: 80px;">
       <h2 style="border-bottom: 1px solid #eee; padding-bottom: 10px; margin-bottom: 20px;">II. Writings</h2>
       
       <div class="poem-card">
         <h3 style="margin-top: 0; color: #3E4A41; font-size: 1.4em;">A Gift</h3>
-        <p class="poem-text"> 
+        <p class="poem-text">
 On a tree by my window,
 lives a baby bird, tender and tiny,
 from branch to branch she hops,
@@ -90,11 +95,10 @@ Oh, how it was—
 the gift of childhood,
 the gift of becoming,
 the gift of consciousness
-        </p>
-        
+</p>
       </div>
       
-      </div>
+    </div>
 
   </div>
 </body>
